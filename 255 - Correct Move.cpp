@@ -16,7 +16,7 @@ int main(void)
 	// Read while not EOF.
 	while(cin >> p1 >> p2 >> move)
 	{
-		// Assume that is possible the firs move.
+		// Assume that is possible the first move.
 		bool firstMove = true;
 		// If the positions of pieces are same then is a illegal state.
 		if(p1 == p2)
